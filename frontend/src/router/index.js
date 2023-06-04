@@ -6,6 +6,11 @@ import OverView from "@/components/OverView.vue";
 import Operator from "@/components/Operator.vue";
 import Resource from "@/components/Resource.vue";
 import Charge from "@/components/Charge.vue";
+import OpenAccount from "@/components/OpenAccount.vue";
+import OpenAccountB from "@/components/OpenAccountB.vue";
+import OpenAccountC from "@/components/OpenAccountC.vue";
+import AddAccount from "@/components/AddAccount.vue";
+import MergeAccount from "@/components/MergeAccount.vue";
 Vue.use(VueRouter)
 
 const routes = [
@@ -43,6 +48,31 @@ const routes = [
                 path: '/charge',
                 name: Charge,
                 component: Charge
+            },
+            {
+                path: '/openAccount',
+                name: OpenAccount,
+                component: OpenAccount
+            },
+            {
+                path: '/openAccountB',
+                name: OpenAccountB,
+                component: OpenAccountB
+            },
+            {
+                path: '/openAccountC',
+                name: OpenAccountC,
+                component: OpenAccountC
+            },
+            {
+                path: '/addAccount',
+                name: AddAccount,
+                component: AddAccount
+            },
+            {
+                path: '/mergeAccount',
+                name: MergeAccount,
+                component: MergeAccount
             }
         ]
     }

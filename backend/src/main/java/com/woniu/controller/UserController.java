@@ -1,7 +1,13 @@
 package com.woniu.controller;
 
+import com.woniu.entity.User;
+import com.woniu.model.Result;
+import com.woniu.service.UserService;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.Resource;
 
 /**
  * <p>
@@ -14,6 +20,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/user")
 public class UserController {
+    @Resource
+    UserService userService;
 
+    @PostMapping("/add")
+    public Result add(User user) {
+        userService.save(user);
+        return Result.response(200, "添加成功", null);
+    }
 }
 

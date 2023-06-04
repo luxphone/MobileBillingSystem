@@ -67,7 +67,7 @@ export default {
         {
           id: 4,
           name: "开户",
-          url: ""
+          url: "/openAccount"
         },
         {
           id: 5,
@@ -94,7 +94,7 @@ export default {
         {
           id: 4,
           name: "开户",
-          url: ""
+          url: "/openAccount"
         },
         {
           id: 5,
