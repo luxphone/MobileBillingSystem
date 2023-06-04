@@ -22,7 +22,7 @@
     </el-form>
     <div slot="footer" class="dialog-footer">
       <el-button type="primary" @click="addResource">提交</el-button>
-      <el-button type="primary" @click="resetForm">全部重写</el-button>
+      <el-button @click="resetForm">重置</el-button>
     </div>
   </div>
 </template>
@@ -52,6 +52,6 @@ export default {
 }
 </script>
 
-<style scoped  lang="less">
+<style scoped lang="less">
 
 </style>

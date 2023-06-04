@@ -5,6 +5,7 @@ import Home from "@/components/Home.vue";
 import OverView from "@/components/OverView.vue";
 import Operator from "@/components/Operator.vue";
 import Resource from "@/components/Resource.vue";
+import Charge from "@/components/Charge.vue";
 Vue.use(VueRouter)
 
 const routes = [
@@ -37,6 +38,11 @@ const routes = [
                 path: '/resource',
                 name: Resource,
                 component: Resource
+            },
+            {
+                path: '/charge',
+                name: Charge,
+                component: Charge
             }
         ]
     }

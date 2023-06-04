@@ -62,7 +62,7 @@ export default {
         {
           id: 3,
           name: "业务管理",
-          url: ""
+          url: "/charge"
         },
         {
           id: 4,
@@ -89,7 +89,7 @@ export default {
         {
           id: 3,
           name: "业务管理",
-          url: ""
+          url: "/charge"
         },
         {
           id: 4,
