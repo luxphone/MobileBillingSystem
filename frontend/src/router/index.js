@@ -4,6 +4,7 @@ import Login from "@/components/Login.vue";
 import Home from "@/components/Home.vue";
 import OverView from "@/components/OverView.vue";
 import Operator from "@/components/Operator.vue";
+import Resource from "@/components/Resource.vue";
 Vue.use(VueRouter)
 
 const routes = [
@@ -31,6 +32,11 @@ const routes = [
                 path: '/operator',
                 name: Operator,
                 component: Operator
+            },
+            {
+                path: '/resource',
+                name: Resource,
+                component: Resource
             }
         ]
     }

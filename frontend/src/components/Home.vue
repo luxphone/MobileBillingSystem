@@ -57,7 +57,7 @@ export default {
         {
           id: 2,
           name: "资源管理",
-          url: ""
+          url: "/resource"
         },
         {
           id: 3,
@@ -84,7 +84,7 @@ export default {
         {
           id: 2,
           name: "资源管理",
-          url: ""
+          url: "/resource"
         },
         {
           id: 3,
